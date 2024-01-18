@@ -58,9 +58,6 @@
         <Ignore Include="res\**" />
         <EmbeddedResource Include="res\**" />
     </ItemGroup>
-    <ItemGroup>
-      <Content Include="NeonWhitePlugin.csproj.user" />
-    </ItemGroup>
 
     <!-- auto copy to bepinex folder; you don't need this but it's helpful -->
     <Target Name="PostBuild" AfterTargets="PostBuildEvent">
